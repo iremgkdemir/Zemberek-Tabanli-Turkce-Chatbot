@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "SpellChecker",
+            "request": "launch",
+            "mainClass": "src.src.SpellChecker",
+            "projectName": "rulabased zemberek_43ccef90"
+        },
+        {
+            "type": "java",
+            "name": "SpellChecker",
+            "request": "launch",
+            "mainClass": "src.SpellChecker",
+            "projectName": "rulabased zemberek_43ccef90"
+        },
+        {
+            "type": "java",
+            "name": "SpellChecker",
+            "request": "launch",
+            "mainClass": "SpellChecker",
+            "classPaths": [
+                "${workspaceFolder}/lib/zemberek-full.jar"
+            ],
+            "args": [
+                "yanlız"
+            ]
+        }
+    ]
+}
